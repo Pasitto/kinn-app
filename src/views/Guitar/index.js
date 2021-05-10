@@ -64,7 +64,7 @@ const Guitar = () => {
   const [playD1] = useSound(`${guitarAudioPath}D1.mp3`);
   // A
   const [playA] = useSound(`${guitarAudioPath}A.mp3`);
-  const [playA6] = useSound(`${guitarAudioPath}A6.mp3`);
+  // const [playA6] = useSound(`${guitarAudioPath}A6.mp3`);
   const [playA5] = useSound(`${guitarAudioPath}A5.mp3`);
   const [playA4] = useSound(`${guitarAudioPath}A4.mp3`);
   const [playA3] = useSound(`${guitarAudioPath}A3.mp3`);
@@ -98,7 +98,7 @@ const Guitar = () => {
         <button type="button" id="C6" onClick={playC6}></button>
         <button type="button" id="F6" onClick={playF6}></button>
         <button type="button" id="D6" onClick={playD6}></button>
-        <button type="button" id="A6" onClick={playA6}></button>
+        <button type="button" id="A6" onClick={playAm6}></button>
       </div>
       <div className="col">
         <button type="button" id="Em5" className="button2" onClick={playEm5}></button>

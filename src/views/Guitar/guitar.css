@@ -1,0 +1,13 @@
+button {
+    width: 127px;
+    height: 25px;
+    margin-inline-start: 20px;
+    margin-block-start: 40px;
+    opacity: 0;
+}
+.button2 {
+    width: 127px;
+    height: 25px;
+    margin-inline-start: 20px;
+    margin-block-start: 60px;
+}
